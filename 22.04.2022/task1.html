@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/task1.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Application Form</h1>
+      <form action="" method="">
+        <div>
+          <label for="ad"> Ad :</label>
+          <input type="text" required name="ad" id="ad" />
+        </div>
+
+        <div>
+          <label for="soyad"> Soyad :</label>
+
+          <input type="text" required name="soyad" id="soyad" />
+        </div>
+        <div>
+          <label for="sifre">Şifrə</label>
+          <input
+            type="password"
+            required
+            name="sifre"
+            id="sifre"
+            minlength="8"
+          />
+        </div>
+        <div>
+          <div>
+            <p>Cinsinizi secin</p>
+            <label for="K">
+              K <input type="radio" name="gender" id="k" />
+            </label>
+            <label for="Q">
+              Q <input type="radio" name="gender" id="q" />
+            </label>
+          </div>
+        </div>
+        <div>
+          <p>Bitirdiyiniz təhsil dərəcələrini seçin</p>
+          <label for="orta">
+            <input type="checkbox" name="orta" id="orta" required />Orta
+          </label>
+          <label for="bakalavr">
+            <input
+              type="checkbox"
+              name="bakalavr"
+              id="bakalavr"
+              required
+            />Bakalavr
+          </label>
+          <label for="magistr">
+            <input
+              type="checkbox"
+              name="magistr"
+              id="magistr"
+              required
+            />Magistr
+          </label>
+          <label for="doktor">
+            <input type="checkbox" name="doktor" id="doktor" required />Doktor
+          </label>
+        </div>
+        <div>
+          <label for="yas">Yaş :</label>
+           <input type="number" required name="yas" id="yas" min="0">
+        </div>
+        <div>
+          <label for="boy">Boy :</label>
+           <input type="number" required name="boy" id="boy" min="0">
+        </div>
+        <div>
+          <label for="ceki">Çəki :</label>
+           <input type="number" required name="ceki" id="ceki" min="0">
+        </div>
+        <div>
+          <button type="submit">
+            Tesdiqle
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

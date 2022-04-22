@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.box-1{
+    background-color: rgb(88,140,148);
+    color: white;
+    width: 100%;
+}
+.box-1 h1{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 75px 0;
+}
+
+.box2{
+    background-color:white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 70px;
+    color: rgba(0, 0, 0, 0.597);
+}
+.box2 h2{
+    text-align: center;
+    margin: 0;
+  
+}
+.box2 p{
+    text-align: center;
+    margin: 10px;
+   
+}
+.box3{    
+    background-color:rgb(29,60,65) ;   
+    padding: 30px;
+    width: 100%;
+    
+}
+.box3-container{
+    width: 40%;margin: 0 auto;
+    padding: 50px;
+}
+.box3-container div{
+    width: 30%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.box3-container div h3{
+    color: white;
+    text-align: center;
+}
+.box3-container div p{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
